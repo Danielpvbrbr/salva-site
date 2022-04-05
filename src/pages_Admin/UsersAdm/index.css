@@ -1,0 +1,1710 @@
+#UserAdm #body {
+    width: 100vw;
+    height: 90vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+
+#UserAdm #containTitle {
+    width: 1100px;
+    height: 40px;
+    padding: 10px;
+    background-color: #fff;
+    -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-top: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+
+}
+
+#UserAdm #containTitle #title {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+#UserAdm #containProduct {
+    width: 1100px;
+    height: 500px;
+    margin-top: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 5px;
+    border: none !important;
+}
+
+#UserAdm #containProduct #product {
+    width: 44%;
+    height: 570px;
+    padding: 7px;
+    overflow-y: scroll;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#UserAdm #containProduct #product>div {
+    width: 98%;
+    height: 110px;
+    margin-bottom: 5px;
+    background-color: #fff;
+    -webkit-box-shadow: inset 0 0 1em #fff, 0 0 0.5em #000;
+    box-shadow: inset 0 0 1em #fff, 0 0 0.5em #000;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+#UserAdm #containProduct #product #areaInfo {
+    width: 80%;
+    height: 30px;
+    padding: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: none
+}
+
+#UserAdm #containProduct #product #areaInfo h3 {
+    font-size: 15px;
+    font-weight: 400;
+    text-align: start;
+}
+
+#UserAdm #containProduct #product #areClose {
+    width: 20%;
+    height: 30px;
+    padding: 5px 10px 5px 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+}
+
+#UserAdm #containProduct #product #containErr {
+    width: 100%;
+    height: 80px;
+    margin: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#UserAdm #containProduct #product #iconCart {
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+#UserAdm #containProduct #product #areClose #iconClose {
+    font-size: 20px;
+    color: #ff0000;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+#UserAdm #containProduct #Form {
+    width: 55%;
+    height: 580px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: #fff;
+    -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+
+}
+
+#UserAdm #containProduct #Form .inputArea {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+#UserAdm #containProduct #Form .inputArea label {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+#UserAdm #Form #btnUpload {
+    width: 96%;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 0;
+    background-color: #008648;
+    color: #FFF;
+    font-weight: bold;
+    margin-top: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+
+}
+
+#UserAdm #Form #btnUpload .tes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+}
+
+#UserAdm #Form #inputs {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#UserAdm #Form .areaInputSmaller {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#UserAdm #Form .areaInputRadio {
+    width: 97%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+#UserAdm #containProduct #Form .areaInputRadio label {
+    font-size: 12px;
+    margin: 4px;
+}
+
+#UserAdm #Form #inputs .input {
+    width: 95%;
+    height: 27px;
+    margin: 5px 0px 3px 10px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+#UserAdm #Form #inputs .inputSmaller {
+    text-align: center;
+    width: 10%;
+    height: 30px;
+    margin: 5px 0px 3px 10px;
+    border-radius: 5px;
+}
+
+@media (min-width: 319.98px) and (max-width: 413.98px) {
+
+    /* #UserAdm #header {
+        width: 100%;
+        height: 60px;
+        background-color: #000;
+        display: flex;
+        justify-content: space-around;
+    }
+     */
+    #UserAdm #body {
+        width: 100vw;
+        height: 90vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    #UserAdm #containTitle {
+        width: 90%;
+        height: 30px;
+        padding: 8px;
+        background-color: #fff;
+        -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        margin-top: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+
+    }
+
+    #UserAdm #containTitle #title {
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    #UserAdm #containTitle #title h3 {
+        font-size: 12pt;
+    }
+
+    #UserAdm #containProduct {
+        width: 90%;
+        height: 500px;
+        margin-top: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: 5px;
+        border: none !important;
+    }
+
+    #UserAdm #containProduct #product {
+        width: 44%;
+        /*0 || 44 */
+        height: 570px;
+        padding: 7px;
+        overflow-y: scroll;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    #UserAdm #containProduct #product>div {
+        width: 98%;
+        height: 110px;
+        margin-bottom: 5px;
+        background-color: #fff;
+        -webkit-box-shadow: inset 0 0 1em #fff, 0 0 0.5em #000;
+        box-shadow: inset 0 0 1em #fff, 0 0 0.5em #000;
+        border-radius: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+
+    #UserAdm #containProduct #product #areaInfo {
+        width: 80%;
+        /*0 || 80 */
+        height: 15px;
+        /*0 || 30 */
+        padding: 5px;
+        /*0 || 30 */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: start;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        border: none
+    }
+
+    #UserAdm #containProduct #product #areaInfo h3 {
+        font-size: 8pt;
+        font-weight: 400;
+        text-align: start;
+        max-width: 12ch;
+        overflow: hidden;
+        -o-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    #UserAdm #containProduct #product #areClose {
+        width: 8%;
+        height: 15px;
+        padding: 5px 10px 5px 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: end;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    #UserAdm #containProduct #product #containErr {
+        width: 100%;
+        height: 80px;
+        margin: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    #UserAdm #containProduct #product #iconCart {
+        font-size: 30px;
+        margin-right: 5px;
+    }
+
+    #UserAdm #containProduct #product #areClose #iconClose {
+        font-size: 20px;
+        color: #ff0000;
+        margin-left: 0px;
+        cursor: pointer;
+    }
+
+    #UserAdm #containProduct #Form {
+        width: 100%;
+        height: 650px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        background-color: #fff;
+        -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        margin-left: 3px;
+    }
+
+    #UserAdm #containProduct #Form .inputArea {
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    #UserAdm #containProduct #Form .inputArea label {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    #UserAdm #Form #btnUpload {
+        width: 96%;
+        height: 30px;
+        border-radius: 5px;
+        cursor: pointer;
+        border: 0;
+        background-color: #008648;
+        color: #FFF;
+        font-weight: bold;
+        margin-top: 5px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+
+    }
+
+    #UserAdm #Form #btnUpload .tes {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+
+    }
+
+    #UserAdm #Form #inputs {
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    #UserAdm #Form .areaInputSmaller {
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    #UserAdm #Form .areaInputRadio {
+        width: 97%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+
+    #UserAdm #containProduct #Form .areaInputRadio label {
+        font-size: 12px;
+        margin: 4px;
+    }
+
+    #UserAdm #Form #inputs .input {
+        width: 80%;
+        height: 27px;
+        margin: 5px 0px 3px 10px;
+        border-radius: 5px;
+        padding-left: 5px;
+    }
+
+    #UserAdm #Form #inputs .inputSmaller {
+        text-align: center;
+        width: 25%;
+        height: 30px;
+        margin: 5px 0px 3px 10px;
+        border-radius: 5px;
+    }
+}
+
+@media (min-width: 413.98px) and (max-width: 480.98px) {
+    #UserAdm #body {
+        width: 100vw;
+        height: 90vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    #UserAdm #containTitle {
+        width: 90%;
+        height: 30px;
+        padding: 8px;
+        background-color: #fff;
+        -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        margin-top: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+
+    }
+
+    #UserAdm #containTitle #title {
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    #UserAdm #containTitle #title h3 {
+        font-size: 12pt;
+    }
+
+    #UserAdm #containProduct {
+        width: 90%;
+        height: 500px;
+        margin-top: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: 5px;
+        border: none !important;
+    }
+
+    #UserAdm #containProduct #product {
+        width: 44%;
+        height: 570px;
+        padding: 7px;
+        overflow-y: scroll;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    #UserAdm #containProduct #product>div {
+        width: 98%;
+        height: 110px;
+        margin-bottom: 5px;
+        background-color: #fff;
+        -webkit-box-shadow: inset 0 0 1em #fff, 0 0 0.5em #000;
+        box-shadow: inset 0 0 1em #fff, 0 0 0.5em #000;
+        border-radius: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+
+    #UserAdm #containProduct #product #areaInfo {
+        width: 80%;
+        /*0 || 80 */
+        height: 15px;
+        /*0 || 30 */
+        padding: 5px;
+        /*0 || 30 */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: start;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        border: none
+    }
+
+    #UserAdm #containProduct #product #areaInfo h3 {
+        font-size: 8pt;
+        font-weight: 400;
+        text-align: start;
+        max-width: 18ch;
+        overflow: hidden;
+        -o-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    #UserAdm #containProduct #product #areClose {
+        width: 8%;
+        height: 15px;
+        padding: 5px 10px 5px 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: end;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    #UserAdm #containProduct #product #containErr {
+        width: 100%;
+        height: 80px;
+        margin: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    #UserAdm #containProduct #product #iconCart {
+        font-size: 30px;
+        margin-right: 5px;
+    }
+
+    #UserAdm #containProduct #product #areClose #iconClose {
+        font-size: 20px;
+        color: #ff0000;
+        margin-left: 0px;
+        cursor: pointer;
+    }
+
+    #UserAdm #containProduct #Form {
+        width: 100%;
+        height: 650px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        background-color: #fff;
+        -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        margin-left: 3px;
+    }
+
+    #UserAdm #containProduct #Form .inputArea {
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    #UserAdm #containProduct #Form .inputArea label {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    #UserAdm #Form #btnUpload {
+        width: 96%;
+        height: 30px;
+        border-radius: 5px;
+        cursor: pointer;
+        border: 0;
+        background-color: #008648;
+        color: #FFF;
+        font-weight: bold;
+        margin-top: 5px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    #UserAdm #Form #btnUpload .tes {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+
+    }
+
+    #UserAdm #Form #inputs {
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    #UserAdm #Form .areaInputSmaller {
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    #UserAdm #Form .areaInputRadio {
+        width: 97%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+
+    #UserAdm #containProduct #Form .areaInputRadio label {
+        font-size: 12px;
+        margin: 4px;
+    }
+
+    #UserAdm #Form #inputs .input {
+        width: 88%;
+        height: 27px;
+        margin: 5px 0px 3px 10px;
+        border-radius: 5px;
+        padding-left: 5px;
+    }
+
+    #UserAdm #Form #inputs .inputSmaller {
+        text-align: center;
+        width: 25%;
+        height: 30px;
+        margin: 5px 0px 3px 10px;
+        border-radius: 5px;
+    }
+}
+
+@media (min-width: 480.98px) and (max-width:991.98px) {
+    #UserAdm #body {
+        width: 100vw;
+        height: 90vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    #UserAdm #containTitle {
+        width: 90%;
+        height: 30px;
+        padding: 8px;
+        background-color: #fff;
+        -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        margin-top: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+
+    }
+
+    #UserAdm #containTitle #title {
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    #UserAdm #containTitle #title h3 {
+        font-size: 11pt;
+    }
+
+    #UserAdm #containProduct {
+        width: 90%;
+        height: 500px;
+        margin-top: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: 5px;
+        border: none !important;
+    }
+
+    #UserAdm #containProduct #product {
+        width: 44%;
+        height: 570px;
+        padding: 7px;
+        overflow-y: scroll;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    #UserAdm #containProduct #product>div {
+        width: 98%;
+        height: 110px;
+        margin-bottom: 5px;
+        background-color: #fff;
+        -webkit-box-shadow: inset 0 0 1em #fff, 0 0 0.5em #000;
+        box-shadow: inset 0 0 1em #fff, 0 0 0.5em #000;
+        border-radius: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+
+    #UserAdm #containProduct #product #areaInfo {
+        width: 80%;
+        /*0 || 80 */
+        height: 15px;
+        /*0 || 30 */
+        padding: 5px;
+        /*0 || 30 */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: start;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        border: none
+    }
+
+    #UserAdm #containProduct #product #areaInfo h3 {
+        font-size: 8pt;
+        font-weight: 400;
+        text-align: start;
+        max-width: 30ch;
+        overflow: hidden;
+        -o-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    #UserAdm #containProduct #product #areClose {
+        width: 8%;
+        height: 15px;
+        padding: 5px 10px 5px 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: end;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    #UserAdm #containProduct #product #containErr {
+        width: 100%;
+        height: 80px;
+        margin: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    #UserAdm #containProduct #product #iconCart {
+        font-size: 30px;
+        margin-right: 5px;
+    }
+
+    #UserAdm #containProduct #product #areClose #iconClose {
+        font-size: 20px;
+        color: #ff0000;
+        margin-left: 0px;
+        cursor: pointer;
+    }
+
+    #UserAdm #containProduct #Form {
+        width: 100%;
+        height: 650px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        background-color: #fff;
+        -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        margin-left: 3px;
+    }
+
+    #UserAdm #containProduct #Form .inputArea {
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    #UserAdm #containProduct #Form .inputArea label {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    #UserAdm #Form #btnUpload {
+        width: 96%;
+        height: 30px;
+        border-radius: 5px;
+        cursor: pointer;
+        border: 0;
+        background-color: #008648;
+        color: #FFF;
+        font-weight: bold;
+        margin-top: 5px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    #UserAdm #Form #btnUpload .tes {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+
+    }
+
+    #UserAdm #Form #inputs {
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    #UserAdm #Form .areaInputSmaller {
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    #UserAdm #Form .areaInputRadio {
+        width: 97%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+
+    #UserAdm #containProduct #Form .areaInputRadio label {
+        font-size: 12px;
+        margin: 4px;
+    }
+
+    #UserAdm #Form #inputs .input {
+        width: 94%;
+        height: 27px;
+        margin: 5px 0px 3px 10px;
+        border-radius: 5px;
+        padding-left: 5px;
+    }
+
+    #UserAdm #Form #inputs .inputSmaller {
+        text-align: center;
+        width: 25%;
+        height: 30px;
+        margin: 5px 0px 3px 10px;
+        border-radius: 5px;
+    }
+}
+
+@media (min-width: 991.98px) and (max-width: 1150.98px) {
+    #UserAdm #body {
+        width: 100vw;
+        height: 90vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    #UserAdm #containTitle {
+        width: 90%;
+        height: 30px;
+        padding: 8px;
+        background-color: #fff;
+        -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        margin-top: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+
+    }
+
+    #UserAdm #containTitle #title {
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    #UserAdm #containTitle #title h3 {
+        font-size: 11pt;
+    }
+
+    #UserAdm #containProduct {
+        width: 90%;
+        height: 500px;
+        margin-top: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: 5px;
+        border: none !important;
+    }
+
+    #UserAdm #containProduct #product {
+        width: 44%;
+        height: 570px;
+        padding: 7px;
+        overflow-y: scroll;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    #UserAdm #containProduct #product>div {
+        width: 98%;
+        height: 110px;
+        margin-bottom: 5px;
+        background-color: #fff;
+        -webkit-box-shadow: inset 0 0 1em #fff, 0 0 0.5em #000;
+        box-shadow: inset 0 0 1em #fff, 0 0 0.5em #000;
+        border-radius: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+
+    #UserAdm #containProduct #product #areaInfo {
+        width: 80%;
+        /*0 || 80 */
+        height: 15px;
+        /*0 || 30 */
+        padding: 5px;
+        /*0 || 30 */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: start;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        border: none
+    }
+
+    #UserAdm #containProduct #product #areaInfo h3 {
+        font-size: 8pt;
+        font-weight: 400;
+        text-align: start;
+        max-width: 30ch;
+        overflow: hidden;
+        -o-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    #UserAdm #containProduct #product #areClose {
+        width: 8%;
+        height: 15px;
+        padding: 5px 10px 5px 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: end;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    #UserAdm #containProduct #product #containErr {
+        width: 100%;
+        height: 80px;
+        margin: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    #UserAdm #containProduct #product #iconCart {
+        font-size: 30px;
+        margin-right: 5px;
+    }
+
+    #UserAdm #containProduct #product #areClose #iconClose {
+        font-size: 20px;
+        color: #ff0000;
+        margin-left: 0px;
+        cursor: pointer;
+    }
+
+    #UserAdm #containProduct #Form {
+        width: 100%;
+        height: 650px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        background-color: #fff;
+        -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        margin-left: 3px;
+    }
+
+    #UserAdm #containProduct #Form .inputArea {
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    #UserAdm #containProduct #Form .inputArea label {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    #UserAdm #Form #btnUpload {
+        width: 96%;
+        height: 30px;
+        border-radius: 5px;
+        cursor: pointer;
+        border: 0;
+        background-color: #008648;
+        color: #FFF;
+        font-weight: bold;
+        margin-top: 5px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    #UserAdm #Form #btnUpload .tes {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+
+    }
+
+    #UserAdm #Form #inputs {
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    #UserAdm #Form .areaInputSmaller {
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    #UserAdm #Form .areaInputRadio {
+        width: 97%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+
+    #UserAdm #containProduct #Form .areaInputRadio label {
+        font-size: 12px;
+        margin: 4px;
+    }
+
+    #UserAdm #Form #inputs .input {
+        width: 95%;
+        height: 27px;
+        margin: 5px 0px 3px 10px;
+        border-radius: 5px;
+        padding-left: 5px;
+    }
+
+    #UserAdm #Form #inputs .inputSmaller {
+        text-align: center;
+        width: 25%;
+        height: 30px;
+        margin: 5px 0px 3px 10px;
+        border-radius: 5px;
+    }
+}

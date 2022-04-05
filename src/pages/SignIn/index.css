@@ -1,0 +1,834 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+#signIn #containBack {
+    width: 130px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+#signIn #iconBack {
+    color: #fff;
+    font-size: 30px;
+}
+
+#signIn .title {
+    font-size: 15px;
+    color: #fff;
+}
+
+#signIn #body {
+    width: 100vw;
+    height: 90vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#signIn #containLogin {
+    width: 700px;
+    height: 400px;
+    background-color: #000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+#signIn #containLeft {
+    width: 40%;
+    height: 100%;
+    background-color: #2e2e2e;
+    border-radius: 9px 0px 0px 9.1px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#signIn #containLeft #imgLogo {
+    width: 350px;
+    height: 350px;
+}
+
+#signIn #containRight {
+    width: 60%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+#signIn #containRight #areaLogo {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 0;
+}
+
+#signIn #containRight #areaLogo #imgLogo {
+    width: 0px;
+    height: 200px;
+    /* opacity: 0; */
+    position: absolute;
+
+}
+#signIn #containInput {
+    width: 300px;
+    height: 150px;
+}
+
+#signIn #containInput .input {
+    width: 85%;
+    height: 45px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 0;
+    padding-left: 15%;
+    font-size: 15px;
+}
+
+#signIn #containInput #inputTell {
+    height: 58px;
+    margin-top: -25px;
+}
+
+#signIn #containInput #iconTell {
+    position: relative;
+    color: #000;
+    font-size: 25px;
+    top: 38px;
+    left: 10px;
+}
+
+#signIn #containInput #inputLock {
+    height: 50px;
+}
+
+#signIn #containInput #iconLock {
+    position: relative;
+    color: #000;
+    font-size: 25px;
+    top: 38px;
+    left: 10px;
+
+}
+
+#signIn #containButton {
+    width: 300px;
+    height: 100px;
+}
+
+#signIn #containButton .btnAccess {
+    width: 100%;
+    height: 45px;
+    color: #FFF;
+    font-weight: bold;
+    background-color: #1FA44E;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 0;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+}
+
+#signIn #containButton .btnAccess .tes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+}
+
+#signIn #containButton .btnRegister {
+    width: 100%;
+    height: 45px;
+    color: #FFF;
+    font-weight: bold;
+    background-color: #DF4428;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer
+}
+
+/* @media only screen and (max-width: 600px) {
+
+} */
+@media (min-width: 319.98px) and (max-width: 413.98px) {
+
+    #signIn #containBack {
+        width: 130px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+        justify-content: space-evenly;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    #signIn #iconBack {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    #signIn .title {
+        font-size: 12px;
+        color: #fff;
+    }
+
+    #signIn #body {
+        width: 100vw;
+        height: 90vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    #signIn #containLogin {
+        width: 100%;
+        height: 350px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        border-radius: 10px;
+        background: rgba(0, 0, 0, 0.0);
+        margin-top: 140px;
+    }
+
+    #signIn #containLeft {
+        width: 0;
+        height: 0;
+    }
+
+    #signIn #containLeft #imgLogo {
+        width: 0px;
+        height: 0px;
+        opacity: 0;
+        position: absolute;
+
+    }
+
+    #signIn #containRight {
+        width: 100%;
+        height: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    #signIn #containRight #areaLogo {
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        top: 0;
+    }
+
+    #signIn #containRight #areaLogo #imgLogo {
+        width: 200px;
+        height: 200px;
+        /* opacity: 0; */
+        position: absolute;
+
+    }
+
+    #signIn #containInput {
+        width: 260px;
+        height: 140px;
+    }
+
+    #signIn #containInput .input {
+        width: 85%;
+        height: 35px;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        border: 0;
+        padding-left: 15%;
+        font-size: 15px;
+    }
+
+    #signIn #containInput #inputTell {
+        height: 58px;
+        margin-top: -25px;
+    }
+
+    #signIn #containInput #iconTell {
+        position: relative;
+        color: #000;
+        font-size: 20px;
+        top: 32px;
+        left: 10px;
+    }
+
+    #signIn #containInput #inputLock {
+        height: 50px;
+    }
+
+    #signIn #containInput #iconLock {
+        position: relative;
+        color: #000;
+        font-size: 20px;
+        top: 32px;
+        left: 10px;
+
+    }
+
+    #signIn #containButton {
+        width: 260px;
+        height: 85px;
+    }
+
+    #signIn #containButton .btnAccess {
+        width: 100%;
+        height: 35px;
+        color: #FFF;
+        font-weight: bold;
+        background-color: #1FA44E;
+        -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        margin-bottom: 15px;
+        border: 0;
+        cursor: pointer;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    }
+
+    #signIn #containButton .btnAccess .tes {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+
+    }
+
+    #signIn #containButton .btnRegister {
+        width: 100%;
+        height: 35px;
+        color: #FFF;
+        font-weight: bold;
+        background-color: #DF4428;
+        -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        border: 0;
+        cursor: pointer
+    }
+
+
+
+}
+
+@media (min-width: 413.98px) and (max-width: 480.98px) {
+
+    #signIn #containBack {
+        width: 130px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+        justify-content: space-evenly;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    #signIn #iconBack {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    #signIn .title {
+        font-size: 12px;
+        color: #fff;
+    }
+
+    #signIn #body {
+        width: 100vw;
+        height: 90vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    #signIn #containLogin {
+        width: 100%;
+        height: 350px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        border-radius: 10px;
+        background: rgba(0, 0, 0, 0.0);
+        margin-top: 140px;
+    }
+
+    #signIn #containLeft {
+        width: 0;
+        height: 0;
+    }
+
+    #signIn #containLeft #imgLogo {
+        width: 0px;
+        height: 0px;
+        /* opacity: 0; */
+        position: absolute;
+    }
+
+    #signIn #containRight {
+        width: 100%;
+        height: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    #signIn #containRight #areaLogo {
+        width: 230px;
+        height: 230px;
+        position: absolute;
+        top: 0;
+    }
+
+    #signIn #containRight #areaLogo #imgLogo {
+        width: 230px;
+        height: 230px;
+        /* opacity: 0; */
+    }
+    #signIn #containInput {
+        width: 300px;
+        height: 140px;
+    }
+
+    #signIn #containInput .input {
+        width: 85%;
+        height: 35px;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        border: 0;
+        padding-left: 15%;
+        font-size: 15px;
+    }
+
+    #signIn #containInput #inputTell {
+        height: 58px;
+        margin-top: -25px;
+    }
+
+    #signIn #containInput #iconTell {
+        position: relative;
+        color: #000;
+        font-size: 20px;
+        top: 32px;
+        left: 10px;
+    }
+
+    #signIn #containInput #inputLock {
+        height: 50px;
+    }
+
+    #signIn #containInput #iconLock {
+        position: relative;
+        color: #000;
+        font-size: 20px;
+        top: 32px;
+        left: 10px;
+
+    }
+
+    #signIn #containButton {
+        width: 300px;
+        height: 85px;
+    }
+
+    #signIn #containButton .btnAccess {
+        width: 100%;
+        height: 35px;
+        color: #FFF;
+        font-weight: bold;
+        background-color: #1FA44E;
+        -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        margin-bottom: 15px;
+        border: 0;
+        cursor: pointer;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    }
+
+    #signIn #containButton .btnAccess .tes {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+
+    }
+
+    #signIn #containButton .btnRegister {
+        width: 100%;
+        height: 35px;
+        color: #FFF;
+        font-weight: bold;
+        background-color: #DF4428;
+        -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        border: 0;
+        cursor: pointer
+    }
+
+
+}
+@media (min-width: 480.98px) and (max-width: 991.98px) {
+    #signIn #containBack {
+        width: 130px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+        justify-content: space-evenly;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    #signIn #iconBack {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    #signIn .title {
+        font-size: 12px;
+        color: #fff;
+    }
+
+    #signIn #body {
+        width: 100vw;
+        height: 90vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    #signIn #containLogin {
+        width: 100%;
+        height: 350px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        border-radius: 10px;
+        background: rgba(0, 0, 0, 0.0);
+        margin-top: 140px;
+    }
+
+    #signIn #containLeft {
+        width: 0;
+        height: 0;
+    }
+
+    #signIn #containLeft #imgLogo {
+        width: 0px;
+        height: 0px;
+        /* opacity: 0; */
+        position: absolute;
+    }
+
+    #signIn #containRight {
+        width: 100%;
+        height: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    #signIn #containRight #areaLogo {
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        top: 0;
+    }
+
+    #signIn #containRight #areaLogo #imgLogo {
+        width: 200px;
+        height: 200px;
+        /* opacity: 0; */
+    }
+    #signIn #containInput {
+        width: 300px;
+        height: 140px;
+    }
+
+    #signIn #containInput .input {
+        width: 85%;
+        height: 35px;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        border: 0;
+        padding-left: 15%;
+        font-size: 15px;
+    }
+
+    #signIn #containInput #inputTell {
+        height: 58px;
+        margin-top: -25px;
+    }
+
+    #signIn #containInput #iconTell {
+        position: relative;
+        color: #000;
+        font-size: 20px;
+        top: 32px;
+        left: 10px;
+    }
+
+    #signIn #containInput #inputLock {
+        height: 50px;
+    }
+
+    #signIn #containInput #iconLock {
+        position: relative;
+        color: #000;
+        font-size: 20px;
+        top: 32px;
+        left: 10px;
+
+    }
+
+    #signIn #containButton {
+        width: 300px;
+        height: 85px;
+    }
+
+    #signIn #containButton .btnAccess {
+        width: 100%;
+        height: 35px;
+        color: #FFF;
+        font-weight: bold;
+        background-color: #1FA44E;
+        -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        margin-bottom: 15px;
+        border: 0;
+        cursor: pointer;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    }
+
+    #signIn #containButton .btnAccess .tes {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+
+    }
+
+    #signIn #containButton .btnRegister {
+        width: 100%;
+        height: 35px;
+        color: #FFF;
+        font-weight: bold;
+        background-color: #DF4428;
+        -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        border: 0;
+        cursor: pointer
+    }
+}
+@media (min-width: 991.98px) and (max-width: 1024.98px) {
+
+}

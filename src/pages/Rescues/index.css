@@ -1,0 +1,1270 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+
+#Rescues #body {
+    width: 100vw;
+    height: 90vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+
+#Rescues #containTitle {
+    width: 1100px;
+    height: 40px;
+    padding: 10px;
+    background-color: #fff;
+    -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-top: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+
+}
+
+#Rescues #containTitle #title {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-left: 10%;
+}
+
+#Rescues #containTitle #spots {
+    width: 10%;
+    margin-right: 3px;
+    color: #31B404;
+    font-weight: 900;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+#Rescues #containTitle #spots p {
+    font-size: 11px;
+    margin: 2px
+}
+
+
+#Rescues #containProduct {
+    width: 1100px;
+    margin-top: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+
+}
+
+#Rescues #containListProduct {
+    width: 80%;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+}
+
+#Rescues #containListProduct>div {
+    width: 100%;
+    height: 110px;
+    margin: 10px;
+    background-color: #fff;
+    -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    cursor: pointer;
+}
+
+#Rescues #containListProduct #containCart {
+    width: 100%;
+    height: 110px;
+    margin: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+#Rescues #containListProduct #iconCart {
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+#Rescues #areaImg {
+    width: 20%;
+    height: 110px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+#Rescues #containListProduct #imgProduct {
+    width: 100px;
+    height: 100px;
+}
+
+#Rescues #containListProduct #areaInfo {
+    width: 33.3%;
+    height: 30px;
+    padding: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border: none
+}
+
+#Rescues #containListProduct #areaInfo h3 {
+    font-size: 15px;
+    font-weight: 400;
+    text-align: start;
+}
+
+#Rescues #containListProduct #areaPrice {
+    width: 33.3%;
+    height: 30px;
+    padding: 5px 10px 5px 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+}
+
+#Rescues #containListProduct #areaPrice #iconClose {
+    font-size: 20px;
+    color: #ff0000;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+
+#Rescues #containListProduct #areaPrice h3 {
+    font-size: 18px;
+    font-weight: 900;
+    text-align: end;
+}
+
+@media (min-width: 319.98px) and (max-width: 413.98px) {
+    
+    #Rescues #body {
+        width: 100vw;
+        height: 90vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    
+    
+    #Rescues #containTitle {
+        width: 90%;
+        height: 30px;
+        padding: 10px;
+        background-color: #fff;
+        -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+                box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        margin-top: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -ms-flex-item-align: center;
+            -ms-grid-row-align: center;
+            align-self: center;
+    
+    }
+    
+    #Rescues #containTitle #title {
+        width: 80%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        padding-left: 15%;
+        font-size: 10pt;
+    }
+    
+    #Rescues #containTitle #spots {
+        width: 20%;
+        margin-right: 3px;
+        color: #31B404;
+        font-weight: 900;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    
+    #Rescues #containTitle #spots p {
+        font-size: 11px;
+        margin: 2px
+    }
+    
+    
+    #Rescues #containProduct {
+        width: 90%;
+        margin-top: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    
+    }
+    
+    #Rescues #containListProduct {
+        width: 80%;
+        border-radius: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -ms-flex-item-align: center;
+            -ms-grid-row-align: center;
+            align-self: center;
+    }
+    
+    #Rescues #containListProduct>div {
+        width: 100%;
+        height: 110px;
+        margin: 10px;
+        background-color: #fff;
+        -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+                box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        cursor: pointer;
+    }
+    
+    #Rescues #containListProduct #containCart {
+        width: 100%;
+        height: 80px;
+        margin: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    
+    #Rescues #containListProduct #iconCart {
+        font-size: 30px;
+        margin-right: 5px;
+    }
+    
+    #Rescues #areaImg {
+        width: 20%;
+        height: 110px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    
+    #Rescues #containListProduct #imgProduct {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #Rescues #containListProduct #areaInfo {
+        width: 33.3%;
+        height: 30px;
+        padding: 5px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: start;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        border: none
+    }
+    
+    #Rescues #containListProduct #areaInfo h3 {
+        font-size: 15px;
+        font-weight: 400;
+        text-align: start;
+    }
+    
+    #Rescues #containListProduct #areaPrice {
+        width: 33.3%;
+        height: 30px;
+        padding: 5px 10px 5px 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: end;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    
+    }
+    
+    #Rescues #containListProduct #areaPrice #iconClose {
+        font-size: 20px;
+        color: #ff0000;
+        margin-left: 5px;
+        cursor: pointer;
+    }
+    
+    
+    #Rescues #containListProduct #areaPrice h3 {
+        font-size: 18px;
+        font-weight: 900;
+        text-align: end;
+    }
+}
+
+@media (min-width: 413.98px) and (max-width: 480.98px) {
+    #Rescues #body {
+        width: 100vw;
+        height: 90vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    
+    
+    #Rescues #containTitle {
+        width: 90%;
+        height: 30px;
+        padding: 10px;
+        background-color: #fff;
+        -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+                box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        margin-top: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -ms-flex-item-align: center;
+            -ms-grid-row-align: center;
+            align-self: center;
+    
+    }
+    
+    #Rescues #containTitle #title {
+        width: 80%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        padding-left: 15%;
+        font-size: 10pt;
+    }
+    
+    #Rescues #containTitle #spots {
+        width: 20%;
+        margin-right: 3px;
+        color: #31B404;
+        font-weight: 900;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    
+    #Rescues #containTitle #spots p {
+        font-size: 11px;
+        margin: 2px
+    }
+    
+    
+    #Rescues #containProduct {
+        width: 90%;
+        margin-top: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    
+    }
+    
+    #Rescues #containListProduct {
+        width: 80%;
+        border-radius: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -ms-flex-item-align: center;
+            -ms-grid-row-align: center;
+            align-self: center;
+    }
+    
+    #Rescues #containListProduct>div {
+        width: 100%;
+        height: 110px;
+        margin: 10px;
+        background-color: #fff;
+        -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+                box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        cursor: pointer;
+    }
+    
+    #Rescues #containListProduct #containCart {
+        width: 100%;
+        height: 80px;
+        margin: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    
+    #Rescues #containListProduct #iconCart {
+        font-size: 30px;
+        margin-right: 5px;
+    }
+    
+    #Rescues #areaImg {
+        width: 20%;
+        height: 110px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    
+    #Rescues #containListProduct #imgProduct {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #Rescues #containListProduct #areaInfo {
+        width: 33.3%;
+        height: 30px;
+        padding: 5px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: start;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        border: none
+    }
+    
+    #Rescues #containListProduct #areaInfo h3 {
+        font-size: 15px;
+        font-weight: 400;
+        text-align: start;
+    }
+    
+    #Rescues #containListProduct #areaPrice {
+        width: 33.3%;
+        height: 30px;
+        padding: 5px 10px 5px 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: end;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    
+    }
+    
+    #Rescues #containListProduct #areaPrice #iconClose {
+        font-size: 20px;
+        color: #ff0000;
+        margin-left: 5px;
+        cursor: pointer;
+    }
+    
+    
+    #Rescues #containListProduct #areaPrice h3 {
+        font-size: 18px;
+        font-weight: 900;
+        text-align: end;
+    }
+}
+
+@media (min-width: 480.98px) and (max-width:991.98px) {
+    #Rescues #body {
+        width: 100vw;
+        height: 90vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    
+    
+    #Rescues #containTitle {
+        width: 90%;
+        height: 30px;
+        padding: 10px;
+        background-color: #fff;
+        -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+                box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        margin-top: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -ms-flex-item-align: center;
+            -ms-grid-row-align: center;
+            align-self: center;
+    
+    }
+    
+    #Rescues #containTitle #title {
+        width: 80%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        padding-left: 15%;
+        font-size: 10pt;
+    }
+    
+    #Rescues #containTitle #spots {
+        width: 20%;
+        margin-right: 3px;
+        color: #31B404;
+        font-weight: 900;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    
+    #Rescues #containTitle #spots p {
+        font-size: 11px;
+        margin: 2px
+    }
+    
+    
+    #Rescues #containProduct {
+        width: 90%;
+        margin-top: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    
+    }
+    
+    #Rescues #containListProduct {
+        width: 80%;
+        border-radius: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -ms-flex-item-align: center;
+            -ms-grid-row-align: center;
+            align-self: center;
+    }
+    
+    #Rescues #containListProduct>div {
+        width: 100%;
+        height: 110px;
+        margin: 10px;
+        background-color: #fff;
+        -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+                box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        cursor: pointer;
+    }
+    
+    #Rescues #containListProduct #containCart {
+        width: 100%;
+        height: 80px;
+        margin: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    
+    #Rescues #containListProduct #iconCart {
+        font-size: 30px;
+        margin-right: 5px;
+    }
+    
+    #Rescues #areaImg {
+        width: 20%;
+        height: 110px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    
+    #Rescues #containListProduct #imgProduct {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #Rescues #containListProduct #areaInfo {
+        width: 33.3%;
+        height: 30px;
+        padding: 5px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: start;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        border: none
+    }
+    
+    #Rescues #containListProduct #areaInfo h3 {
+        font-size: 15px;
+        font-weight: 400;
+        text-align: start;
+    }
+    
+    #Rescues #containListProduct #areaPrice {
+        width: 33.3%;
+        height: 30px;
+        padding: 5px 10px 5px 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: end;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    
+    }
+    
+    #Rescues #containListProduct #areaPrice #iconClose {
+        font-size: 20px;
+        color: #ff0000;
+        margin-left: 5px;
+        cursor: pointer;
+    }
+    
+    
+    #Rescues #containListProduct #areaPrice h3 {
+        font-size: 18px;
+        font-weight: 900;
+        text-align: end;
+    }
+}
+
+@media (min-width: 991.98px) and (max-width: 1150.98px) {
+    #Rescues #body {
+        width: 100vw;
+        height: 90vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    
+    
+    #Rescues #containTitle {
+        width: 90%;
+        height: 30px;
+        padding: 10px;
+        background-color: #fff;
+        -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+                box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        margin-top: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -ms-flex-item-align: center;
+            -ms-grid-row-align: center;
+            align-self: center;
+    
+    }
+    
+    #Rescues #containTitle #title {
+        width: 80%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        padding-left: 15%;
+        font-size: 10pt;
+    }
+    
+    #Rescues #containTitle #spots {
+        width: 20%;
+        margin-right: 3px;
+        color: #31B404;
+        font-weight: 900;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    
+    #Rescues #containTitle #spots p {
+        font-size: 11px;
+        margin: 2px
+    }
+    
+    
+    #Rescues #containProduct {
+        width: 90%;
+        margin-top: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    
+    }
+    
+    #Rescues #containListProduct {
+        width: 80%;
+        border-radius: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -ms-flex-item-align: center;
+            -ms-grid-row-align: center;
+            align-self: center;
+    }
+    
+    #Rescues #containListProduct>div {
+        width: 100%;
+        height: 110px;
+        margin: 10px;
+        background-color: #fff;
+        -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+                box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        cursor: pointer;
+    }
+    
+    #Rescues #containListProduct #containCart {
+        width: 100%;
+        height: 80px;
+        margin: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    
+    #Rescues #containListProduct #iconCart {
+        font-size: 30px;
+        margin-right: 5px;
+    }
+    
+    #Rescues #areaImg {
+        width: 20%;
+        height: 110px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    
+    #Rescues #containListProduct #imgProduct {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #Rescues #containListProduct #areaInfo {
+        width: 33.3%;
+        height: 30px;
+        padding: 5px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: start;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        border: none
+    }
+    
+    #Rescues #containListProduct #areaInfo h3 {
+        font-size: 15px;
+        font-weight: 400;
+        text-align: start;
+    }
+    
+    #Rescues #containListProduct #areaPrice {
+        width: 33.3%;
+        height: 30px;
+        padding: 5px 10px 5px 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: end;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    
+    }
+    
+    #Rescues #containListProduct #areaPrice #iconClose {
+        font-size: 20px;
+        color: #ff0000;
+        margin-left: 5px;
+        cursor: pointer;
+    }
+    
+    
+    #Rescues #containListProduct #areaPrice h3 {
+        font-size: 18px;
+        font-weight: 900;
+        text-align: end;
+    }
+}
